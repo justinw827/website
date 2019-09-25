@@ -5,7 +5,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>JUSTIN</h1>
+      <div class="bgimg-1"></div>
+      <div style={{height: "200px", backgroundColor: "#FFF", textAlign: "center", lineHeight: "200px", fontSize: "36pt"}}>Hello</div>
+      <div class="bgimg-2"></div>
+      <div style={{height: "200px", backgroundColor: "#FFF", textAlign: "center", lineHeight: "200px", fontSize: "36pt"}}>Goodbye</div>
+      <div class="bgimg-1"></div>
     </div>
   );
 }
