@@ -1,12 +1,11 @@
 .bgimg-1 {
    background-image: url("./images/sample.jpg");
    min-height: 700px;
-
    clip-path: inset(10em);
-  filter: blur($blur);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+   filter: blur($blur);
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .bgimg-2 {
@@ -22,6 +21,7 @@
    background-repeat: no-repeat;
    background-size: cover;
    opacity: 0.5;
+   z-index: -2;
 }
 
 .navbar {
@@ -29,7 +29,10 @@
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  opacity: 0.7;
+  border-radius: 0;
+  margin-bottom: 0;
+  height: 3.75em;
+  z-index: -1;
 }
 
 *, *:before, *:after {
