@@ -12,7 +12,7 @@ class NavBar extends Component {
 	   // }
 
 	  	return (
-			<Menu size="large" className="navbar" style={{backgroundColor: "rgb(136, 77, 77)"}}>
+			<Menu size="large" className="navbar" style={{backgroundColor: "rgb(49, 113, 150)"}}>
 				<Menu.Item position="right">
 					<a href="https://www.linkedin.com/in/justin-wang-profile/"><FontAwesomeIcon style={{color: "#FFF"}} icon={['fab', 'linkedin']} size="2x"/></a>
 					<a href="https://github.com/justinw827"><FontAwesomeIcon style={{color: "#FFF", marginLeft: "1em"}} icon={['fab', 'github']} size="2x"/></a>

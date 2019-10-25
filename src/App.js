@@ -11,7 +11,7 @@ function App() {
   return (
    <div className="App">
       <NavBar />
-      // <div className="drop-shadow"></div>
+      <div className="drop-shadow"></div>
       <div className="bgimg-1">
          <h1>JUSTIN WANG</h1>
       </div>
