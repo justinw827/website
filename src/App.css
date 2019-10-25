@@ -32,7 +32,6 @@
   border-radius: 0;
   margin-bottom: 0;
   height: 3.75em;
-  z-index: -1;
 }
 
 *, *:before, *:after {
