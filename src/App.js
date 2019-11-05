@@ -15,10 +15,7 @@ function App() {
       <div className="bgimg-1">
          <img src={logo} alt="JUSTIN WANG" height="250" width="250"/>
       </div>
-      <div style={{height: "200px", backgroundColor: "#FFF", textAlign: "center", lineHeight: "200px", fontSize: "36pt"}}>Coming Soon</div>
-      <div className="bgimg-2"></div>
-      <div style={{height: "200px", backgroundColor: "#FFF", textAlign: "center", lineHeight: "200px", fontSize: "36pt"}}>TBD</div>
-      <Canvas />
+      <div style={{height: "200px", backgroundColor: "#FFF", textAlign: "center", lineHeight: "200px", fontSize: "36pt", marginBottom: "4em"}}>Coming Soon</div>
     </div>
   );
 }
