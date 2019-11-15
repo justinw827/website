@@ -15,7 +15,8 @@ function App() {
       <div className="bgimg-1">
          <img src={logo} alt="JUSTIN WANG" height="250" width="250"/>
       </div>
-      <div style={{height: "200px", backgroundColor: "#FFF", textAlign: "center", lineHeight: "200px", fontSize: "36pt", marginBottom: "4em"}}>Coming Soon</div>
+      <div style={{height: "200px", backgroundColor: "#FFF", textAlign: "center", lineHeight: "200px", fontSize: "36pt", marginTop: "-1em"}}>Work in Progress...</div>
+      <h2 style={{textAlign: "center", marginBottom: "5em"}}>Check my GitHub above if you want to see what I'm working on!</h2>
     </div>
   );
 }

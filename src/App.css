@@ -33,3 +33,10 @@
   margin-bottom: 0;
   height: 3.75em;
 }
+
+#projects-div {
+   width: 70%;
+   height: 500px;
+   border-style: solid;
+   margin: 0 auto;
+}
